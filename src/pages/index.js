@@ -1,21 +1,27 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import { fontAwesomeIcons } from '../helpers/fontawesomeicons'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import MainContent from "../components/main-content";
+import AboutUs from "../components/aboutus";
+import ContactUs from "../components/contactus";
+import FAQ from "../components/faq";
+
+library.add(fontAwesomeIcons)
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <MainContent/>
+    <AboutUs/>
+    <FAQ/>
+    <hr/>
+    <ContactUs/>
+    <hr/>
+    {/*<Link to="/page-2/">Go to page 2</Link>*/}
   </Layout>
 )
 
