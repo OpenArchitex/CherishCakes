@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="512mm"
-   height="460.57956mm"
-   viewBox="0 0 512 460.57956"
+   height="512mm"
+   viewBox="0 0 512 512"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
@@ -88,7 +88,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
      inkscape:cx="554.91557"
-     inkscape:cy="761.76531"
+     inkscape:cy="761.76521"
      inkscape:document-units="mm"
      inkscape:current-layer="g3745"
      showgrid="false"
@@ -117,12 +117,12 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-80.830263,318.28978)">
+     transform="translate(-80.830263,369.71024)">
     <g
        id="g3745"
        transform="matrix(0.26458333,0,0,0.26458333,14.0482,216.79582)">
       <g
-         transform="matrix(19.351181,0,0,19.351181,252.40465,-2022.1977)"
+         transform="matrix(19.351181,0,0,21.511603,252.40465,-2216.5234)"
          id="ae872377-a0c4-4483-948e-9bfc19ab1416"
          data-v-423bf9ae=""
          style="fill:url(#linearGradient3753);stroke:none">
