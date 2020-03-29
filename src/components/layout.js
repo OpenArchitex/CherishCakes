@@ -13,6 +13,13 @@ import "./layout.css"
 import JumbotronElement from "./jumbotron"
 import Footer from "./footer";
 
+if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]', {
+        header: '#nav-bar-header'
+    })
+}
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
