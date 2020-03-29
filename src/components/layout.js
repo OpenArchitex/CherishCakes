@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import Header from "./header"
+import NavBar from "./nav-bar"
 import "./layout.css"
 import JumbotronElement from "./jumbotron"
 import Footer from "./footer";
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <NavBar siteTitle={data.site.siteMetadata.title} />
       <JumbotronElement/>
       <div
         style={{
