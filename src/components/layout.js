@@ -8,11 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import NavBar from "./nav-bar"
 import "./layout.css"
 import JumbotronElement from "./jumbotron"
 import Footer from "./footer";
-import Navigation_Bar from "./navigation_bar"
-import typography from "./typography"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Navigation_Bar/> 
+      <NavBar siteTitle={data.site.siteMetadata.title} />
       <JumbotronElement/>
       <div
         style={{
