@@ -620,3 +620,21 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.w3-myfont {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+  color: #9370DB;
+  text-align: right;
+  font-family: "Snell Roundhand", cursive;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2em;
+  line-height: 1.1;
+  
+}
