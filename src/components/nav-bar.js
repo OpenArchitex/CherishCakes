@@ -3,6 +3,7 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../images/cherishcake-logo.svg"
+import "typeface-dancing-script"
 
 const NavBar = ({ siteTitle }) => (
     <Navbar bg="light" variant="light" collapseOnSelect expand="sm" fixed="top" id="nav-bar-header">
@@ -19,9 +20,9 @@ const NavBar = ({ siteTitle }) => (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-                <Nav.Link href="#about-us">About Us</Nav.Link>
-                <Nav.Link href="#faq">FAQ</Nav.Link>
-                <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+                <Nav.Link href="#about-us" className="nav-link">About Us</Nav.Link>
+                <Nav.Link href="#faq" className="nav-link">FAQ</Nav.Link>
+                <Nav.Link href="#contact-us" className="nav-link">Contact Us</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
