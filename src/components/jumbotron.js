@@ -49,7 +49,6 @@ const JumbotronElement = () => {
                             fluid={query.image2.childImageSharp.fluid}
                             alt={query.image1.relativePath}
                         />
-
                         <Carousel.Caption>
                             <h3>Let Us Make Your Wedding Cake!</h3>
                             <p>Life is a cake and love is the icing on top of it. Without love, it becomes difficult to swallow life.</p>
@@ -61,7 +60,6 @@ const JumbotronElement = () => {
                             fluid={query.image3.childImageSharp.fluid}
                             alt={query.image1.relativePath}
                         />
-
                         <Carousel.Caption>
                             <h3>Cakes For Every Occasion!</h3>
                             <p>Where there is cake, there is hope. And there is always cake.</p>

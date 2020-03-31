@@ -6,22 +6,23 @@ const FAQ = () => (
             <div className="col-xs-12 col-sm-12">
                 <h1>Questions?</h1>
                 <ul className="mt-3">
-                    <li className="text-secondary">
-                        What's the price of a customized cake design?
+                    <li>
+                        <div className="text-secondary mb-2">What's the price of a customized cake design?</div>
+                        <p>Price is dependent upon the type of cake, size, design and fillings etc. <a href="#contact-us">Please contact me</a> to get a quote.</p>
                     </li>
-                    <p>Price is dependent upon the type of cake, size, design and fillings etc. <a href="#contact-us">Please contact me</a> to get a quote.</p>
-                    <li className="text-secondary">
-                        What cake flavors and fillings available?
+                    <li>
+                        <div className="text-secondary mb-2">What cake flavors and fillings available?</div>
+                        <p>All major varieties of flavors and fillings are available.</p>
                     </li>
-                    <p>All major varieties of flavors and fillings are available.</p>
-                    <li className="text-secondary">
-                        Is a deposit required?
+                    <li>
+                        <div className="text-secondary mb-2">Is a deposit required?</div>
+                        <p>Yes, a deposit of 50% of the price is required for the order to proceed.</p>
                     </li>
-                    <p>Yes, a deposit of 50% of the price is required for the order to proceed.</p>
-                    <li className="text-secondary">
-                        What payment method can I use?
+                    <li>
+                        <div className="text-secondary mb-2">What payment method can I use?</div>
+                        <p>We currently accept e-transfers and cash payments.</p>
                     </li>
-                    <p>We currently accept e-transfers and cash payments.</p>
+
                 </ul>
             </div>
         </div>
