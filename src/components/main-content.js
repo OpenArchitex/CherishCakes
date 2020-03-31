@@ -4,6 +4,7 @@ import cake2 from "../images/cake-gallary/cake2.jpg";
 import cake3 from "../images/cake-gallary/cake3.jpg";
 import cake4 from "../images/cake-gallary/cake4.jpg";
 import cake5 from "../images/cake-gallary/cake5.jpg";
+import cake6 from "../images/cake-gallary/cake6.jpg";
 
 const MainContent = () => (
     <div className="container-fluid">
@@ -48,11 +49,18 @@ const MainContent = () => (
             </div>
         </div>
         <div className="row">
-            <div className="col-xs-12 col-sm-12">
+            <div className="col-xs-12 col-sm-6">
                 <img
                     src={cake5}
                     className="d-inline-block align-top mb-0 img-fluid"
                     alt={cake5.displayName + " Logo"}
+                />
+            </div>
+            <div className="col-xs-12 col-sm-6">
+                <img
+                    src={cake6}
+                    className="d-inline-block align-top mb-0 img-fluid"
+                    alt={cake6.displayName + " Logo"}
                 />
             </div>
         </div>

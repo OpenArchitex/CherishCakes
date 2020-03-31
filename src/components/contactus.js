@@ -18,7 +18,7 @@ const ContactUs = () => (
                         <div className="mb-3 mt-3 text-center">
                             <FontAwesomeIcon icon={['far', 'envelope']} size="2x"/>
                         </div>
-                        <a href="mailto:cherishcakes@gmail.com">priyangas@gmail.com</a>
+                        <a href="mailto:priyangasg@gmail.com">priyangasg@gmail.com</a>
                     </div>
                 </div>
             </div>
