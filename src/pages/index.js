@@ -9,6 +9,7 @@ import MainContent from "../components/main-content";
 import AboutUs from "../components/aboutus";
 import ContactUs from "../components/contactus";
 import FAQ from "../components/faq";
+import "typeface-roboto";
 
 library.add(fontAwesomeIcons)
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `CherishCakes`,
-    description: `Custom cake designs for every occasion.`,
+    description: `Custom cake designs for every occasion`,
     author: `OpenArchitex`,
   },
   plugins: [
