@@ -9,8 +9,6 @@ import MainContent from "../components/main-content";
 import AboutUs from "../components/aboutus";
 import ContactUs from "../components/contactus";
 import FAQ from "../components/faq";
-import "typeface-roboto";
-import "typeface-dancing-script"
 
 library.add(fontAwesomeIcons)
 
