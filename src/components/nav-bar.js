@@ -3,7 +3,6 @@ import React from "react"
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../images/cherishcake-logo.svg"
-import "typeface-dancing-script"
 
 const NavBar = ({ siteTitle }) => (
     <Navbar bg="light" variant="light" collapseOnSelect expand="sm" fixed="top" id="nav-bar-header">
