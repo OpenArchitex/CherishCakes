@@ -19,6 +19,7 @@ const NavBar = ({ siteTitle }) => (
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
+                <Nav.Link href="/gallery" className="nav-link">Past Creations</Nav.Link>
                 <Nav.Link href="#about-us" className="nav-link">About Us</Nav.Link>
                 <Nav.Link href="#faq" className="nav-link">FAQ</Nav.Link>
                 <Nav.Link href="#contact-us" className="nav-link">Contact Us</Nav.Link>
