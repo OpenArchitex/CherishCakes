@@ -16,6 +16,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-theme-gallery`,
+      options:{
+
+        basePath: `/`,
+        galleryPath: `src/images/cake-gallary`,
+      },
+    },
+
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `CherishCakes`,
