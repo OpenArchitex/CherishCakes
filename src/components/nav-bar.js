@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import logo from "../images/cherishcake-logo.svg"
 
 const NavBar = ({ siteTitle, location }) => {
-    const navbarBrandLink = location.pathname === "/"? "#top": "/";
+    const navbarBrandLink = (location && location.pathname === "/")? "#top": "/";
 
     return (
         <Navbar bg="light" variant="light" collapseOnSelect expand="sm" fixed="top" id="nav-bar-header">
@@ -21,7 +21,7 @@ const NavBar = ({ siteTitle, location }) => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
-                {location.pathname === "/" &&
+                {location && location.pathname === "/" &&
                 <Nav className="ml-auto">
                     <Nav.Link href="/gallery" className="nav-link">Past Creations</Nav.Link>
                     <Nav.Link href="#about-us" className="nav-link">About Us</Nav.Link>
@@ -29,7 +29,7 @@ const NavBar = ({ siteTitle, location }) => {
                     <Nav.Link href="#contact-us" className="nav-link">Contact Us</Nav.Link>
                 </Nav>
                 }
-                {location.pathname === "/gallery" &&
+                {location && location.pathname === "/gallery" &&
                 <Nav className="ml-auto">
                     <Nav.Link href="/" className="nav-link">Home</Nav.Link>
                 </Nav>
