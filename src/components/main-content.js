@@ -1,21 +1,23 @@
 import React from "react";
-import cake1 from "../images/cake-gallary/cake1.jpg";
-import cake2 from "../images/cake-gallary/cake2.jpg";
-import cake3 from "../images/cake-gallary/cake3.jpg";
-import cake4 from "../images/cake-gallary/cake4.jpg";
-import cake5 from "../images/cake-gallary/cake5.jpg";
-import cake6 from "../images/cake-gallary/cake6.jpg";
-import cake7 from "../images/cake-gallary/cake7.jpg";
+import cake1 from "../images/featured-cakes/cake1.jpg";
+import cake2 from "../images/featured-cakes/cake2.jpg";
+import cake3 from "../images/featured-cakes/cake3.jpg";
+import cake4 from "../images/featured-cakes/cake4.jpg";
+import cake5 from "../images/featured-cakes/cake5.jpg";
+import cake6 from "../images/featured-cakes/cake6.jpg";
+import cake7 from "../images/featured-cakes/cake7.jpg";
+import {Button} from "react-bootstrap";
 
 const MainContent = () => (
     <div className="container-fluid">
         <div className="row">
             <div className="col-xs-12 col-sm-5 mb-3">
-                <section>
+                <section className="mb-3">
                     <h1>Creative Designs</h1>
                     <p>We believe that cakes are not just a sweet but an art in itself. The true quality of a cake comes from
                         its creative design handmade with the best of ingredients and a little bit of love!
                     </p>
+                    <Button variant="primary" href="/gallery">View Gallery</Button>
                 </section>
                 <section>
                     <img
