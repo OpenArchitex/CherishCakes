@@ -9,9 +9,8 @@ const Footer = () => (
                 <div className="row">
                     <div className="mx-auto">
                         <ListGroup horizontal>
-                            {/*<ListGroup.Item className="border-0"><FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/></ListGroup.Item>*/}
-                            <ListGroup.Item className="border-0"><a style={{color: "inherit"}} href="https://www.facebook.com/priyangasg/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"/></a></ListGroup.Item>
-                            <ListGroup.Item className="border-0"><a style={{color: "inherit"}} href="https://www.instagram.com/priyangasg/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/></a></ListGroup.Item>
+                            <ListGroup.Item className="border-0"><a aria-label="facebook" style={{color: "inherit"}} href="https://www.facebook.com/priyangasg/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook']} size="2x"/></a></ListGroup.Item>
+                            <ListGroup.Item className="border-0"><a aria-label="instagram" style={{color: "inherit"}} href="https://www.instagram.com/priyangasg/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} size="2x"/></a></ListGroup.Item>
                         </ListGroup>
                     </div>
                 </div>
