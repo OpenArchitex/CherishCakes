@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import NavBar from "./nav-bar"
 import "./layout.css"
-import JumbotronElement from "./jumbotron"
 import Footer from "./footer";
 
 if (typeof window !== "undefined") {
@@ -19,7 +18,7 @@ if (typeof window !== "undefined") {
     })
 }
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -32,8 +31,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <NavBar siteTitle={data.site.siteMetadata.title} />
-      <JumbotronElement/>
+      <NavBar siteTitle={data.site.siteMetadata.title} location={location}/>
       <div
         style={{
           margin: `0 auto`,
