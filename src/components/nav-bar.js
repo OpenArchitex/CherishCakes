@@ -9,7 +9,7 @@ const NavBar = ({ siteTitle, location }) => {
     const navbarBrandLink = (location && location.pathname === "/")? "#top": "/";
 
     return (
-        <Navbar bg="light" variant="light" collapseOnSelect expand="sm" fixed="top" id="nav-bar-header">
+        <Navbar bg="light" variant="light" collapseOnSelect expand="sm" fixed="top">
             <Navbar.Brand>
                 <Link to={navbarBrandLink}>
                     <img
