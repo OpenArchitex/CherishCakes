@@ -12,6 +12,12 @@ import NavBar from "./nav-bar"
 import "./layout.css"
 import Footer from "./footer";
 
+if (typeof window !== "undefined") {
+    require("smooth-scroll")('a[href*="#"]', {
+        header: '#nav-bar-header'
+    })
+}
+
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
