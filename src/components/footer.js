@@ -18,7 +18,7 @@ const Footer = () => (
                     <small>
                         Powered by <a href="https://github.com/OpenArchitex" target="_blank" rel="noopener noreferrer">OpenArchitex</a>
                         &copy;{new Date().getFullYear()}. Code licensed under an {` `}
-                        <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT</a>.
+                        <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License</a>.
                     </small>
                 </p>
             </div>
