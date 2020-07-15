@@ -17,7 +17,7 @@ const MainContent = () => (
                     <p>We believe that cakes are not just a sweet but an art in itself. The true quality of a cake comes from
                         its creative design handmade with the best of ingredients and a little bit of love!
                     </p>
-                    <Button variant="primary" href="/gallery">View Gallery</Button>
+                    <Button variant="primary" href="/gallery/">View Gallery</Button>
                 </section>
                 <section>
                     <img

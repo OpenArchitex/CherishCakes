@@ -47,7 +47,7 @@ const JumbotronElement = () => {
                         <Img
                             className="d-block w-100"
                             fluid={query.image2.childImageSharp.fluid}
-                            alt={query.image1.relativePath}
+                            alt={query.image2.relativePath}
                         />
                         <Carousel.Caption>
                             <h3>Let Us Make Your Wedding Cake!</h3>
@@ -58,7 +58,7 @@ const JumbotronElement = () => {
                         <Img
                             className="d-block w-100"
                             fluid={query.image3.childImageSharp.fluid}
-                            alt={query.image1.relativePath}
+                            alt={query.image3.relativePath}
                         />
                         <Carousel.Caption>
                             <h3>Cakes For Every Occasion!</h3>
