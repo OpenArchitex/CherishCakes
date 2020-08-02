@@ -5,7 +5,7 @@ import cake3 from "../images/featured-cakes/cake3.jpg";
 import cake4 from "../images/featured-cakes/cake4.jpg";
 import cake5 from "../images/featured-cakes/cake5.jpg";
 import cake6 from "../images/featured-cakes/cake6.jpg";
-import cake7 from "../images/featured-cakes/cake7.jpg";
+// import cake7 from "../images/featured-cakes/cake7.jpg";
 import {Button} from "react-bootstrap";
 
 const MainContent = () => (
@@ -67,15 +67,15 @@ const MainContent = () => (
                 />
             </div>
         </div>
-        <div className="row">
-            <div className="col-xs-12 col-sm-12">
-                <img
-                    src={cake7}
-                    className="d-inline-block align-top mb-0 img-fluid"
-                    alt={cake7.displayName + " Logo"}
-                />
-            </div>
-        </div>
+        {/*<div className="row">*/}
+        {/*    <div className="col-xs-12 col-sm-12">*/}
+        {/*        <img*/}
+        {/*            src={cake7}*/}
+        {/*            className="d-inline-block align-top mb-0 img-fluid"*/}
+        {/*            alt={cake7.displayName + " Logo"}*/}
+        {/*        />*/}
+        {/*    </div>*/}
+        {/*</div>*/}
         <hr/>
     </div>
 )
