@@ -10,3 +10,19 @@ img {
     font-family: "Dancing Script", serif;
     font-size: 1.7rem;
 }
+
+.testimonialCarousel .carousel-caption {
+    position: initial;
+}
+
+.testimonialCarousel .carousel-caption > p,h5 {
+    color: #212529;
+}
+
+.testimonialCarousel .carousel-indicators {
+    margin-top: 20px;
+}
+
+.testimonialCarousel .carousel-indicators > li {
+    background-color: #354052;
+}

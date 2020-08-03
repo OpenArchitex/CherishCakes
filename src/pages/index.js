@@ -7,11 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import MainContent from "../components/main-content";
 import AboutUs from "../components/aboutus";
+
 import ContactUs from "../components/contactus";
 import FAQ from "../components/faq";
 import "typeface-roboto";
 import "typeface-dancing-script"
 import JumbotronElement from "../components/jumbotron";
+import Testimonial from "../components/testimonial";
 
 library.add(fontAwesomeIcons)
 
@@ -21,6 +23,7 @@ const IndexPage = ({location}) => (
       <Layout location={location}>
           <SEO title="Home" />
           <MainContent/>
+          <Testimonial/>
           <AboutUs/>
           <FAQ/>
           <hr/>
