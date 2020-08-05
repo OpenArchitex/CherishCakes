@@ -18,4 +18,4 @@ This is the codebase for www.cherishcakes.ca website.
 
 `We are grateful for JetBrains for generously providing Open Source licenses to help us with our development effort.`
 
-[![JetBrains Logo](docs/images/jetbrains-logo.svg)](https://www.jetbrains.com/?from=CherishCakes)
+[![JetBrains Logo](https://raw.githubusercontent.com/OpenArchitex/CommonAssets/master/images/jetbrains-logo.svg)](https://www.jetbrains.com/?from=CherishCakes)
