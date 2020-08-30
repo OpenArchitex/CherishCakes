@@ -34,7 +34,6 @@ const JumbotronElement = () => {
                 <Carousel>
                     <Carousel.Item>
                         <Img
-                            className="d-block w-100"
                             fluid={query.image1.childImageSharp.fluid}
                             alt={query.image1.relativePath}
                         />
@@ -45,7 +44,6 @@ const JumbotronElement = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Img
-                            className="d-block w-100"
                             fluid={query.image2.childImageSharp.fluid}
                             alt={query.image2.relativePath}
                         />
@@ -56,7 +54,6 @@ const JumbotronElement = () => {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Img
-                            className="d-block w-100"
                             fluid={query.image3.childImageSharp.fluid}
                             alt={query.image3.relativePath}
                         />

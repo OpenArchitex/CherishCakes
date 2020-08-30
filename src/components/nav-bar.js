@@ -15,7 +15,7 @@ const NavBar = ({ siteTitle, location }) => {
                     <img
                         src={logo}
                         className="d-inline-block align-top mb-0"
-                        width="250"
+                        width="210"
                         alt={siteTitle + " Logo"}
                     />
                 </Link>
