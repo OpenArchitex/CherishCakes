@@ -30,7 +30,7 @@
     "typeface-roboto": "1.1.13"
   },
   "devDependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.0.3"
   },
   "keywords": [
     "CherishCakes",
