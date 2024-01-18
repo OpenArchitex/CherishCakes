@@ -28,6 +28,10 @@
     "typeface-dancing-script": "1.1.13",
     "typeface-roboto": "1.1.13"
   },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "devDependencies": {
     "prettier": "3.0.3"
   },
