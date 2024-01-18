@@ -2,34 +2,34 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { fontAwesomeIcons } from '../helpers/fontawesomeicons'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import MainContent from "../components/main-content";
-import AboutUs from "../components/aboutus";
+import { fontAwesomeIcons } from "../helpers/fontawesomeicons"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { library } from "@fortawesome/fontawesome-svg-core"
+import MainContent from "../components/main-content"
+import AboutUs from "../components/aboutus"
 
-import ContactUs from "../components/contactus";
-import FAQ from "../components/faq";
-import "typeface-roboto";
+import ContactUs from "../components/contactus"
+import FAQ from "../components/faq"
+import "typeface-roboto"
 import "typeface-dancing-script"
-import JumbotronElement from "../components/jumbotron";
-import Testimonial from "../components/testimonial";
+import JumbotronElement from "../components/jumbotron"
+import Testimonial from "../components/testimonial"
 
 library.add(fontAwesomeIcons)
 
-const IndexPage = ({location}) => (
+const IndexPage = ({ location }) => (
   <>
-      <JumbotronElement/>
-      <Layout location={location}>
-          <SEO title="Home" />
-          <MainContent/>
-          <Testimonial/>
-          <AboutUs/>
-          <FAQ/>
-          <hr/>
-          <ContactUs/>
-          <hr/>
-      </Layout>
+    <JumbotronElement />
+    <Layout location={location}>
+      <SEO title="Home" />
+      <MainContent />
+      <Testimonial />
+      <AboutUs />
+      <FAQ />
+      <hr />
+      <ContactUs />
+      <hr />
+    </Layout>
   </>
 )
 

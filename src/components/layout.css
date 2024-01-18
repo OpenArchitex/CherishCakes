@@ -6,7 +6,7 @@ img {
     max-width: 100%;
 }
 
-.nav-link {
+.nav-links {
     font-family: "Dancing Script", serif;
     font-size: 1.7rem;
 }
@@ -17,10 +17,6 @@ img {
 
 .testimonialCarousel .carousel-caption > p,h5 {
     color: #212529;
-}
-
-.testimonialCarousel .carousel-indicators {
-    margin-top: 20px;
 }
 
 .testimonialCarousel .carousel-indicators > li {

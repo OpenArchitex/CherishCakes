@@ -10,13 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import NavBar from "./nav-bar"
 import "./layout.css"
-import Footer from "./footer";
-
-if (typeof window !== "undefined") {
-    require("smooth-scroll")('a[href*="#"]', {
-        header: '#nav-bar-header'
-    })
-}
+import Footer from "./footer"
 
 const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
@@ -31,7 +25,7 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
-      <NavBar siteTitle={data.site.siteMetadata.title} location={location}/>
+      <NavBar siteTitle={data.site.siteMetadata.title} location={location} />
       <div
         style={{
           margin: `0 auto`,
@@ -41,7 +35,7 @@ const Layout = ({ children, location }) => {
       >
         <main>{children}</main>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
