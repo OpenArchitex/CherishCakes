@@ -23,7 +23,7 @@
     "prop-types": "15.8.1",
     "react": "18.3.1",
     "react-bootstrap": "2.10.9",
-    "react-dom": "18.3.1",
+    "react-dom": "19.0.0",
     "react-helmet": "6.1.0",
     "typeface-dancing-script": "1.1.13",
     "typeface-roboto": "1.1.13"
