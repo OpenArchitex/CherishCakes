@@ -6,7 +6,7 @@
   CherishCakes
 </h1>
 
-![Gatsby Build](https://github.com/OpenArchitex/CherishCakes/workflows/Gatsby%20Build/badge.svg)
+[![Gatsby Build](https://github.com/OpenArchitex/CherishCakes/actions/workflows/gatsby-build.yml/badge.svg)](https://github.com/OpenArchitex/CherishCakes/actions/workflows/gatsby-build.yml)
 
 This is the codebase for www.cherishcakes.ca website.
 
